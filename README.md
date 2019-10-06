@@ -1,2 +1,6 @@
 # NLP_TASKS_TOPIC_MODELING
 Customers division has 50K feedback which are not labeled, help them to find common among all of feedback
+
+For this scienario, I leveraged NTM algo provided by AWS Sagemaker, it gave me a not-bad unsupervised classification.
+
+<I>Amazon SageMaker NTM is an unsupervised learning algorithm that is used to organize a corpus of documents into topics that contain word groupings based on their statistical distribution. Documents that contain frequent occurrences of words such as "bike", "car", "train", "mileage", and "speed" are likely to share a topic on "transportation" for example. Topic modeling can be used to classify or summarize documents based on the topics detected or to retrieve information or recommend content based on topic similarities. The topics from documents that NTM learns are characterized as a latent representation because the topics are inferred from the observed word distributions in the corpus. The semantics of topics are usually inferred by examining the top ranking words they contain. Because the method is unsupervised, only the number of topics, not the topics themselves, are prespecified. In addition, the topics are not guaranteed to align with how a human might naturally categorize documents.</I>
